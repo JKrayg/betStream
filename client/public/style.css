@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(70, 23, 70);
+}
+
+header {
+    height: 120px;
+    background-color: rgb(223, 223, 223);
+    border-bottom: 1px solid black;
+    box-shadow: 10px 6px 15px black;
+}
+
+.betStream {
+    font-size: 6.5rem;
+    color: black;
+}
+
+.Bet {
+    font-weight: 800;
+    
+}
+
+.Stream {
+    font-weight: 200;
+    
+}
+
+#signUpForm {
+    margin-top: 45px;
+    background-color: rgb(223, 223, 223);
+    padding: 30px;
+    border-radius: 5px;
+}

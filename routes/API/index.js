@@ -1,6 +1,6 @@
 const router = require("express").Router();
-const api = require("./api");
+const betRoutes = require("./bet");
 
-router.use("/bet", api);
+router.use("/bet", betRoutes);
 
 module.exports = router;
