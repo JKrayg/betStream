@@ -9,7 +9,7 @@ header {
     box-shadow: 10px 6px 15px black;
 }
 
-.betStream {
+.betStreamTitle {
     font-size: 6.5rem;
     color: black;
 }
@@ -25,7 +25,7 @@ header {
 }
 
 #signUpForm {
-    margin-top: 45px;
+    margin: 45px 0px;
     background-color: rgb(223, 223, 223);
     padding: 30px;
     border-radius: 5px;
