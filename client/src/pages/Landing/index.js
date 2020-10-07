@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
-import Header from "../components/Header"
-import SignUpForm from '../components/SignUpForm'
-import API from "../util/API"
+import Header from "../../components/Headers/MainHeader"
+import SignUpForm from '../../components/SignUpForm'
+import API from "../../util/API"
+import Helmet from 'react-helmet';
+import './style.css'
 
 export class Landing extends Component {
 
@@ -41,6 +43,7 @@ export class Landing extends Component {
         return (
             <div>
                 <Header/>
+                <Helmet bodyAttributes={{style: 'background-color: #242b64'}}/>
                 <div className = "container">
                     <div className = "row">
                         <div className = "col-md-6 offset-3">

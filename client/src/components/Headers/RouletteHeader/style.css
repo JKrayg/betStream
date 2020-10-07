@@ -1,0 +1,23 @@
+.roulHead {
+    height: 120px;
+    background-color: #49382c;
+    border-bottom: 3px solid goldenrod;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.rouletteHeading {
+    color: white;
+    
+}
+
+#rouletteHead {
+    height: 100px;
+    font-size: 5.2rem;
+    color: goldenrod;
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 5px 5px 15px #2e231c;
+    background-color: #1c3657;
+}

@@ -1,0 +1,24 @@
+#signUpForm {
+    margin: 45px 0px;
+    background-color:rgb(145, 145, 145);
+    padding: 30px;
+    border-radius: 5px;
+    color: black;
+    font-family: 'IBM Plex Sans', sans-serif;
+    box-shadow: 5px 5px 15px;
+}
+
+.signUpInput {
+    background-color: lightgrey;
+    border: 1px solid rgb(92, 92, 92);
+}
+
+#signUpSubmit {
+    border: 1px solid rgb(92, 92, 92);
+    border-radius: 3px;
+}
+
+#signUpFormHead {
+    font-weight: bold;
+    color: white;
+}

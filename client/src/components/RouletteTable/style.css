@@ -1,0 +1,39 @@
+#rouletteTable {
+    height: 100%;
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+}
+
+#rouletteWheel {
+    float: right;
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
+    -webkit-animation:spin 6s linear infinite;
+    -moz-animation:spin 6s linear infinite;
+    animation:spin 6s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+}
+
+.tableCon {
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px black;
+    background-color: #0b361b;
+    padding: 20px;
+}
+
+#winningResult {
+    height: 140px;
+    width: 170px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: white;
+    -moz-box-shadow:    inset 0 0 7px #272727;
+    -webkit-box-shadow: inset 0 0 7px #272727;
+    box-shadow:         inset 0 0 7px #272727;
+    font-family: 'IBM Plex Sans', sans-serif;
+    
+}

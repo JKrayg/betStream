@@ -1,0 +1,40 @@
+.roulMenuCon {
+    height: 300px;
+    background-color: #1c3657;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px black;
+    padding: 20px;
+}
+
+#numberBet {
+    width: 40%;
+    border: none;
+    -moz-box-shadow:    inset 0 0 10px #272727;
+    -webkit-box-shadow: inset 0 0 10px #272727;
+    box-shadow:         inset 0 0 10px #272727;
+}
+
+#colorBet {
+    width: 55%;
+    border: none;
+    -moz-box-shadow:    inset 0 0 10px #272727;
+    -webkit-box-shadow: inset 0 0 10px #272727;
+    box-shadow:         inset 0 0 10px #272727;
+}
+
+#labels {
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#betHeading {
+    font-family: 'Marck Script', cursive;
+    color: goldenrod;
+}
+
+#placeBetBtn {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 5px 15px black;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
