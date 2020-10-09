@@ -6,7 +6,7 @@ function SignUpForm(props) {
         <form id = "signUpForm">
             <h3 id = 'signUpFormHead'>Sign Up</h3>
             <div className="form-group">
-                <label htmlFor="firstname">firstname</label>
+                <label htmlFor="firstname">first name</label>
                 <input
                 type="text"
                 className="form-control signUpInput"
@@ -17,7 +17,7 @@ function SignUpForm(props) {
                 />
             </div>
             <div className="form-group">
-                <label htmlFor="lastname">lastname</label>
+                <label htmlFor="lastname">last name</label>
                 <input
                 className="form-control signUpInput"
                 id="lastname"
@@ -66,7 +66,7 @@ function SignUpForm(props) {
                 onChange={props.handleChange}
                 />
             </div>
-            <button id = 'signUpSubmit' type = "submit" onClick = {props.handleSubmit}>Submit</button>
+            <button id = 'signUpSubmit' type = "submit" onClick = {props.handleSubmit}>Sign Up</button>
         </form>
     )
 }
